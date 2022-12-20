@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@1,100;1,800&family=Style+Script&family=Teko:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+    background-image: url(Image/390704.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+h1{
+    font-size: 4rem;
+    margin-top: 6rem;
+    color: rgb(211, 156, 229);
+    font-weight: bolder;
+
+   
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px; 
+   
+
+   
+
+}
+.big-text{
+    font-size: 200px;
+    line-height: 1;
+    margin: 1rem 2rem;
+    font-weight: bold;
+    color: rgb(248, 237, 24);  
+
+}
+
+.countdown-el{
+   text-align: center;
+}
+.countdown-el span{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgba(7, 254, 36, 0.941);
+
+}
+audio{
+    opacity: 5%;
+    display: flex;
+    position: absolute;
+    left: 80%;
+
+}
